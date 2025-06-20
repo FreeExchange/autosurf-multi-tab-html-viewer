@@ -18,7 +18,7 @@ const htmlFiles = shuffleArray(Array.from({ length: 48 }, (_, i) => `https://bac
 
 const iframes = [];
 
-for (let i = 0; i < 30; i++) {
+for (let i = 0; i < 15; i++) {
   const iframe = document.createElement("iframe");
   iframe.classList.add("full-iframe", "loop", "hidden-iframe");
   //iframe.style.display = "none";
