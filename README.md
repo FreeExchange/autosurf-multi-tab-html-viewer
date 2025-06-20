@@ -32,7 +32,3 @@ A lightweight JavaScript-based autosurf tool that loads and rotates **local HTML
 
 You can customize rotation speed and file names in `script.js`.
 
----
-
-## 📂 File Structure
-
