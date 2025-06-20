@@ -1,12 +1,12 @@
 # 🚀 AutoSurf Multi-Tab HTML Viewer 🖥️📈
 
-A lightweight JavaScript-based autosurf tool that loads and rotates **local HTML pages** in **30 simultaneous iframes**. Perfect for **automated browsing**, **SEO backlink testing**, and **traffic generation bots**.
+A lightweight JavaScript-based autosurf tool that loads and rotates **local HTML pages** in **15 simultaneous iframes**. Perfect for **automated browsing**, **SEO backlink testing**, and **traffic generation bots**.
 
 ---
 
 ## 🔧 Features
 
-- ✅ Load up to **30 HTML pages** at once
+- ✅ Load up to **15 HTML pages** at once
 - 🔁 Automatically rotates pages every few seconds
 - 🖼️ Runs in-browser using plain HTML & JavaScript
 - 💻 No external dependencies or installs needed
@@ -28,7 +28,7 @@ A lightweight JavaScript-based autosurf tool that loads and rotates **local HTML
 1. Clone or download this repo
 2. Place your HTML files in the `/pages/` directory
 3. Open `index.html` in a browser
-4. Watch 30 iframes auto-load and rotate through your pages
+4. Watch 15 iframes auto-load and rotate through your pages
 
 You can customize rotation speed and file names in `script.js`.
 
