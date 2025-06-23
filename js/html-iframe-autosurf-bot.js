@@ -6,7 +6,8 @@ function shuffleArray(arr) {
   return arr;
 }
 
-const htmlFiles = shuffleArray(Array.from({ length: 48 }, (_, i) => `https://backlink-generator-tool.github.io/html-autosurf-iframe-loader/pages/page${i + 1}.html`));
+//const htmlFiles = shuffleArray(Array.from({ length: 48 }, (_, i) => `https://backlink-generator-tool.github.io/html-autosurf-iframe-loader/pages/page${i + 1}.html`));
+
 /*
 // Hardcoded array of HTML links
   const htmlFiles = [
@@ -15,6 +16,10 @@ const htmlFiles = shuffleArray(Array.from({ length: 48 }, (_, i) => `https://bac
     "https://backlink-generator-tool.github.io/html-autosurf-iframe-loader/pages/page3.html"
   ];
 */
+
+const htmlFiles = Array.from({ length: 48 }, (_, i) => `https://backlink-generator-tool.github.io/html-autosurf-iframe-loader/pages/page${i + 1}.html`);
+htmlFiles.concat(Array.from({ length: 48 }, (_, i) => `https://FreeExchange.github.io/http://autosurf-multi-tab-html-viewer/pages/page${i + 1}.html`));
+htmlFiles = shuffleArray(htmlFiles);
 
 const iframes = [];
 
