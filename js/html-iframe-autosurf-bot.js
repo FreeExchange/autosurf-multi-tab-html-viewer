@@ -17,9 +17,12 @@ function shuffleArray(arr) {
   ];
 */
 
-const htmlFiles = Array.from({ length: 48 }, (_, i) => `https://backlink-generator-tool.github.io/html-autosurf-iframe-loader/pages/page${i + 1}.html`);
-htmlFiles.concat(Array.from({ length: 48 }, (_, i) => `https://FreeExchange.github.io/autosurf-multi-tab-html-viewer/pages/page${i + 1}.html`));
-shuffleArray(htmlFiles);
+ const htmlFiles1 = Array.from({ length: 48 }, (_, i) => `https://backlink-generator-tool.github.io/html-autosurf-iframe-loader/pages/page${i + 1}.html`);
+ const htmlFiles2 = Array.from({ length: 48 }, (_, i) => `https://FreeExchange.github.io/autosurf-multi-tab-html-viewer/pages/page${i + 1}.html`);
+
+ const htmlFiles = htmlFiles1.concat(htmlFiles2);
+
+ shuffleArray(htmlFiles);
 
 const iframes = [];
 
