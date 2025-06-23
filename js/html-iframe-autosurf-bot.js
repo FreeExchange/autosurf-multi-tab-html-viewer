@@ -19,7 +19,7 @@ function shuffleArray(arr) {
 
 const htmlFiles = Array.from({ length: 48 }, (_, i) => `https://backlink-generator-tool.github.io/html-autosurf-iframe-loader/pages/page${i + 1}.html`);
 htmlFiles.concat(Array.from({ length: 48 }, (_, i) => `https://FreeExchange.github.io/http://autosurf-multi-tab-html-viewer/pages/page${i + 1}.html`));
-htmlFiles = shuffleArray(htmlFiles);
+shuffleArray(htmlFiles);
 
 const iframes = [];
 
